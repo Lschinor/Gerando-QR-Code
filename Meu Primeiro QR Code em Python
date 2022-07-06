@@ -1,0 +1,7 @@
+import qrcode
+
+data = "https//www.linkedin.com/in/lucas-schinor-correa"
+
+qr = qrcode.make(data)
+
+qr.save("meu_qrcode.jpg")
